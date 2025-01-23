@@ -3,7 +3,137 @@ guid: 3e5cd0c4cc438bd4db01a8eeb6ceedbb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24 - Default
+    second: {fileID: 2100000, guid: 44895577721405044aa26ad9189ea247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 165ccc05ad1d4ec4fa209898b8b7f8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 336d7cb5039b33a409a3d1a9ed349f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__14 - Beams
+    second: {fileID: 2100000, guid: 25b1cdb3cafa6604f95396ec5eb50402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__20 - Book
+    second: {fileID: 2100000, guid: e871bd6ab8a25204996121b3cfdb7606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Box_Blue
+    second: {fileID: 2100000, guid: 1b4b6c82149077f469f9db10f30a437d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Box_Green
+    second: {fileID: 2100000, guid: 9bc169c3044d4cb47bc6d24027c95f78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Box_Red
+    second: {fileID: 2100000, guid: d0473928ec0da574391e6a2dfb19b056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Cloth
+    second: {fileID: 2100000, guid: 1ba547c5d7f987147bd03e37913807b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Counter
+    second: {fileID: 2100000, guid: 6fd7b02f6f8408a449f7dbb7c0ec7e35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Fridge
+    second: {fileID: 2100000, guid: 035e2651a6fcaf441bfceaf374cf24a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Glass
+    second: {fileID: 2100000, guid: 208b376e639a20e49b599879990ce5a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__SOFA
+    second: {fileID: 2100000, guid: 7f066f4e4eca7804191f07c10b6a1d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__TABLE
+    second: {fileID: 2100000, guid: 7df4682e290753e4185656e94098c9e2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1964b9d5836b4af79f29209e9636f9be_RGB_Books
+    second: {fileID: 2800000, guid: 3c8644159bd90164ca286aaba9611a3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3ad65d4cc05b41c88c94712f39e13b93_RGB_TABLE_low_TABLE_BaseColor
+    second: {fileID: 2800000, guid: abede461e76e3834cb61833d45be897b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3af79e334e3144b69d6b3490f5a0c237_RGB_Wood_Beams
+    second: {fileID: 2800000, guid: 1a6be04537806bf47a6e5855c9449443, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3e1a283648d04ce1b2820df193d6260e_RGB_GameBoard_Red
+    second: {fileID: 2800000, guid: 7f6a515e1738dac489958350a034a8b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 43d3c49231b34d83a048fd4e458d5140_RGB_colorPalette
+    second: {fileID: 2800000, guid: 8d6ee192bad87b54d877a303e26ccb7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 45406d87e5bc4ae39e51a01a029dda5a_RGB_GameBoard
+    second: {fileID: 2800000, guid: 73141202acaebff4c92e23e30a68a74d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 56d6c1f6619f4fe8a0e8e1e4c53f9023_RGB_Cloth
+    second: {fileID: 2800000, guid: ce59e0d0108180a40a18ccdd7f9a8b07, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 755104e8bdf5403697451c746ea04072_RGB_StevenUniverseHouse_Fridge
+    second: {fileID: 2800000, guid: 94d0e634cfd2ee54aa31650bad7c0b54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: b0d6aebb26c647cdad74e59d3580c836_RGB_GameBoard_Green
+    second: {fileID: 2800000, guid: a4b11281b261728429b65cc0d357c48c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bdc5b1d9c47b4821a98aecf37d8caa4f_RGB_Counter
+    second: {fileID: 2800000, guid: 666c1d7ced115a543ab4229bc674d5ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: f002921c959f42fe9aa1da32260d2c70_N_TABLE_low_TABLE_Normal
+    second: {fileID: 2800000, guid: f7a6378b7cdd6194ca5ec2d7c7c741c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: f2720f41019c4c6881dec26ea8e8ff1b_RGB_Window
+    second: {fileID: 2800000, guid: ebc1225bc4dba6f44bcea4b3521c6c2c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

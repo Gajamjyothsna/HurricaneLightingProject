@@ -3,7 +3,37 @@ guid: b05f06a29615a844a9c54b51875f35b6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24 - Default
+    second: {fileID: 2100000, guid: b0a356876328d1b42a05273df15d3ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 37fceb4c63358bd48a89451b686f3c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__low_poly_interior
+    second: {fileID: 2100000, guid: 46c5520ef53fd484bae3583bc6ff2748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__low_poly_interior1
+    second: {fileID: 2100000, guid: 3ddc2a7f3ecd2824ea1f9b9b67fdf347, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 655ba225ed164dec9c33e01d0bb19765_RGB_colorPalette
+    second: {fileID: 2800000, guid: eaa8c988aeb16024b962272cc7525bd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: eaac08a2543646d496bfa17640394345_RGB_low_poly_interior
+    second: {fileID: 2800000, guid: 16f8b4a9cba4d724fac1f4f4be554bfa, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -35,7 +65,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

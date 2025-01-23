@@ -3,7 +3,77 @@ guid: c2ac711acdde2b74aad594dfac4b209d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24 - Default
+    second: {fileID: 2100000, guid: d49d6dd5944d30f409a1a1caa6852b62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 43d8628d28648244a9ecff4097107e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 850ddcafe46c3684687056d5d421fcba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: b66951a549e8c9e4285ea72b80216d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 40dae4582a7c32d45a57e0ecd47b633e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: a79c21c426fc35e4b84fa8f27a0ed006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: 482b255c3c0092d4d8aad5b992c7123b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert7
+    second: {fileID: 2100000, guid: 11a48fa15fca63248a88472cc9d8a841, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 27e890ec4ebbb994d9fdbb2871e4c705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Material.002
+    second: {fileID: 2100000, guid: c8102495658d4a14d85c8c84fb46b339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Material.003
+    second: {fileID: 2100000, guid: 7ef21d76541c6794082db41acc7f0052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__colors
+    second: {fileID: 2100000, guid: b23cc27031d5cc64fb75eaf2f2857469, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d74f8bad652344eea74c0542c10c5643_RGB_colorPalette
+    second: {fileID: 2800000, guid: bb1f0243f8bcebf4e96bf60de1582496, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: e8a8562886374e37ab1f6d04e522525c_RGB_wood texture hand painted
+    second: {fileID: 2800000, guid: 687a89b6dd1ec414686b28016c3758d6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
