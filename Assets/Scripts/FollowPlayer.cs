@@ -6,26 +6,47 @@ public class FollowPlayer : MonoBehaviour
 {
     [Header("Rain Objects")]
     [SerializeField] private List<GameObject> objects;
+    [SerializeField] private EntranceTrigger entranceTrigger;
 
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] private Transform player;
+    [SerializeField] private float followSpeed;
+    [SerializeField] private bool toFollow;
+    [SerializeField] private float backwardSpeed = 2f; // Speed when moving backward
+
+    private void Start()
     {
-        if(other.gameObject.CompareTag("Entrance"))
+        toFollow = entranceTrigger.followObjects;
+        entranceTrigger.onfollowObject += FollowObject;
+    }
+
+    private void OnDisable()
+    {
+        entranceTrigger.onfollowObject -= FollowObject;
+    }
+
+    private void FollowObject(bool followObjects)
+    {
+        toFollow = followObjects;
+    }
+
+    private void Update()
+    {
+        if (player != null)
         {
-            foreach(GameObject obj in objects)
+            if (toFollow)
             {
-                obj.SetActive(false);
+                // Follow the player
+                transform.position = Vector3.Lerp(transform.position, player.position, followSpeed * Time.deltaTime);
+            }
+            else
+            {
+                // Move backward on the Z-axis only
+                transform.position += new Vector3(0, 0, -backwardSpeed * Time.deltaTime);
             }
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Entrance"))
-        {
-            foreach (GameObject obj in objects)
-            {
-                obj.SetActive(true);
-            }
-        }
-    }
+
+
+
 }

@@ -49,7 +49,7 @@ public class CameraController : MonoBehaviour
         if ( clickToMoveCamera )
             if (Input.GetAxisRaw("Fire2") == 0)
                 return;
-            
+
         // Calculate new position
         mouseX += Input.GetAxis("Mouse X") * sensitivity;
         mouseY += Input.GetAxis("Mouse Y") * sensitivity;

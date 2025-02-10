@@ -3,7 +3,17 @@ guid: 973872d7f77375c4a995e7c2edc2b7ad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SurferMV_Texture
+    second: {fileID: 2100000, guid: 55c0e39da5bf4474fb58d9e3c3748015, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SurferMV_Texture
+    second: {fileID: 2800000, guid: ed80dfa278e42644ba6bbcf459227e39, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
